@@ -1,0 +1,80 @@
+{
+  "E4_check": {
+    "N": 13261,
+    "spec_acc": 0.9555086343413015,
+    "rho": 0.7864406779661017,
+    "eps": 0.058716754794412435,
+    "eps_star": 0.03661905137716045,
+    "full_net": -280,
+    "p": 7.435558268366795e-16,
+    "b0.25": {
+      "esc_rate": 0.25420405700927534,
+      "top_net": 235,
+      "bottom_net": -515
+    },
+    "tauBE": {
+      "esc_rate": 0.1266118693914486,
+      "top_net": 259,
+      "bottom_net": -539
+    }
+  },
+  "E3_confusion": {
+    "specialist": {
+      "TP": 12716,
+      "FP": 507,
+      "FN": 727,
+      "TN": 12936
+    },
+    "full_escalation": {
+      "TP": 12436,
+      "FP": 695,
+      "FN": 1007,
+      "TN": 12748
+    },
+    "specialist_acc": 0.9541025068809046,
+    "specialist_f1": 0.9537238430960774,
+    "specialist_mcc": 0.9083266587193329,
+    "b0.25": {
+      "TP": 13069,
+      "FP": 375,
+      "FN": 374,
+      "TN": 13068
+    },
+    "tauBE": {
+      "TP": 13074,
+      "FP": 341,
+      "FN": 369,
+      "TN": 13102
+    }
+  },
+  "timestamps": {
+    "policy_freeze_v1_utc": "2026-08-27T16:20:00Z",
+    "first_aug_E3_test_inference_utc": "2026-08-27T19:24:03Z",
+    "policy_freeze_v2_utc": "2026-11-22T02:01:16.620483+00:00",
+    "tau_BE_v2_utc": "2026-11-22T05:00:53.870672+00:00",
+    "first_v2_gemini_test_request_utc": "2026-11-22T04:39:28.617124+00:00"
+  },
+  "cost_list_price": {
+    "gemini_in_tokens_per_call": 375.04026659261314,
+    "gemini_out_tokens_per_call": 63.37239655651208,
+    "usd_per_call": 0.00027094307136906414,
+    "usd_per_million_urls_full": 270.9430713690641,
+    "usd_per_million_urls_b0.25": 68.5470048148618,
+    "usd_per_million_urls_tauBE": 33.71924112180646
+  },
+  "v2_list_price_spend_usd": {
+    "SMOKE/gemini-3.5-flash-lite": 0.0079,
+    "SMOKE/gpt-6-luna": 0.0029,
+    "SMOKE/claude-haiku-5-5": 0.004,
+    "SMOKE/gpt-5.6-luna": 0.0061,
+    "SMOKE/deepseek-flash": 0.0024,
+    "BRIDGE/gemini-3.5-flash-lite": 0.2706,
+    "E3_BACKFILL/gemini-3.5-flash-lite": 0.9757,
+    "E8/gemini-3.5-flash-lite": 0.2708,
+    "E9/gpt-6-luna": 0.2899,
+    "E9/claude-haiku-5-5": 0.3992,
+    "E9/gpt-5.6-luna": 0.5828,
+    "E9/deepseek-flash": 0.2158,
+    "total": 3.03
+  }
+}

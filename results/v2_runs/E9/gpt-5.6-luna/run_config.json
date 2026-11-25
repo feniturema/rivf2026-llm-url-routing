@@ -1,0 +1,27 @@
+{
+  "vendor": "luna",
+  "phase": "e9",
+  "config": {
+    "provider": "openai_first_party",
+    "endpoint": "https://api.openai.com/v1/chat/completions",
+    "model": "gpt-5.6-luna",
+    "reasoning_effort": "medium",
+    "max_completion_tokens": 1024,
+    "response_format": {
+      "type": "json_object"
+    },
+    "sampling": "API default (reasoning model)",
+    "changes_vs_august": "max_completion_tokens 200->1024 to remove the reasoning-token truncation (P-47); server model / fingerprint / finish_reason / reasoning_tokens recorded",
+    "prompt_version": "v2",
+    "prompt_combined_sha256": "e67d6cb3b1b546ce3cd2441f829f611be878553d632d9dd27bf372ba8797d8d3",
+    "repeat_indices": [
+      0
+    ]
+  },
+  "config_sha256": "78acf30a6f1ac4635d304eff00be3b193eca903fc64cf64e3b4f980ba6c96fe8",
+  "frozen_at_utc": "2026-11-22T03:07:01.910077+00:00",
+  "preconditions": {
+    "results/policies/policy_freeze_v2.json": "3f7d24fcccb99e008d4eeb421df431270f0a1978ccbb1e8b2c16a5dff9375ae5",
+    "_LOG/2026-11-22_1015_v2-decision-rules.md": "703e4d1b0198588aafa8ba4e29edf6931a5f65b56b6a53c8acc4407581dd8ebf"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "vendor": "gemini",
+  "phase": "e8",
+  "config": {
+    "provider": "google_gemini_api_first_party",
+    "endpoint": "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent",
+    "auth": "x-goog-api-key header",
+    "model": "gemini-3.5-flash-lite",
+    "generationConfig": {
+      "temperature": 0.0,
+      "topP": 1.0,
+      "maxOutputTokens": 256,
+      "responseMimeType": "application/json",
+      "responseSchema": "prompt_v2.schema.json minus additionalProperties (as in August)",
+      "thinkingConfig": {
+        "thinkingLevel": "minimal"
+      }
+    },
+    "changes_vs_august": "pinned model id (was alias gemini-flash-lite-latest); maxOutputTokens 120->256 (only affects truncated outputs); thinkingLevel minimal set explicitly (documented default); modelVersion/responseId/finishReason recorded",
+    "prompt_version": "v2",
+    "prompt_combined_sha256": "e67d6cb3b1b546ce3cd2441f829f611be878553d632d9dd27bf372ba8797d8d3",
+    "e8_selection_rule": "from the 2,993 unique E9 URLs: the 100 with the highest binary entropy (bits) of specialist_prob_cal (ties: sha ascending) + 100 drawn with random.Random(42).sample from the remaining URLs sorted by sha; each requested at repeat_index 1..5 (E3 response is repeat 0)",
+    "repeat_indices": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "config_sha256": "d694eba6259c0ff4f66ef7fbb970368fbe32ffe0e0d4f6c3d1be7bbd1433a19e",
+  "frozen_at_utc": "2026-11-22T04:56:01.305331+00:00",
+  "preconditions": {
+    "results/policies/policy_freeze_v2.json": "3f7d24fcccb99e008d4eeb421df431270f0a1978ccbb1e8b2c16a5dff9375ae5"
+  }
+}

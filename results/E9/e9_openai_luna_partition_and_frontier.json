@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "n_samples": 3000,
+    "model": "gpt-5.6-luna",
+    "provider": "openai",
+    "frozen_cutoff_25": 0.4362536023939326
+  },
+  "full_escalation_2x2": {
+    "cell_a_waste": 2585,
+    "cell_b_rescue": 110,
+    "cell_c_regression": 270,
+    "cell_d_hard": 35,
+    "net_rescues": -160,
+    "population_nrr": -0.05333333333333334,
+    "discordant_advantage": -0.42105263157894735,
+    "mcnemar_p_value": 1.2125355587498223e-16,
+    "rho_rescue": 0.7586206896551724,
+    "eps_error_on_correct": 0.09457092819614711,
+    "eps_breakeven": 0.03852889667250438,
+    "breakeven_holds": false
+  },
+  "two_zone_advantage_partition": {
+    "top_25_uncertainty_zone": {
+      "n_routed": 339,
+      "routed_pct": 0.113,
+      "rescues_b": 84,
+      "regressions_c": 27,
+      "net_advantage": 57,
+      "mcnemar_p": 5.46197809541596e-08
+    },
+    "bot_75_certainty_zone": {
+      "n_intercepted": 2661,
+      "intercepted_pct": 0.887,
+      "rescues_b": 26,
+      "regressions_c": 243,
+      "net_advantage": -217,
+      "mcnemar_p": 2.5029821802081922e-45
+    }
+  }
+}

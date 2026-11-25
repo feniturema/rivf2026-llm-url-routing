@@ -1,0 +1,42 @@
+{
+  "vendor": "gemini",
+  "phase": "e8",
+  "config_sha256": "d694eba6259c0ff4f66ef7fbb970368fbe32ffe0e0d4f6c3d1be7bbd1433a19e",
+  "ca_source": "certifi 2026.01.04",
+  "manifest": "e9_shared_test_cohort_3000.csv",
+  "manifest_sha256": "f33b8a178e95d98f4b9071f531b327f51d106918d18e903ab8f07871b31810c4",
+  "manifest_rows": 1000,
+  "unique_requests": 1000,
+  "duplicate_row_reuses": 0,
+  "unique_success": 1000,
+  "rows_with_valid_response": 1000,
+  "true_failed_fallback_rows": 0,
+  "unresolved_by_status": {},
+  "http_attempts": 1079,
+  "http_status_counts": {
+    "200": 1000,
+    "-1": 79
+  },
+  "server_models": {
+    "gemini-3.5-flash-lite": 1000
+  },
+  "system_fingerprints": {
+    "null": 1000
+  },
+  "finish_reasons": {
+    "STOP": 1000
+  },
+  "usage_missing": 0,
+  "agreement_violations": 0,
+  "tokens": {
+    "in": 376320,
+    "out": 63175,
+    "thinking": 0,
+    "cached": 0
+  },
+  "estimated_cost_usd_list_price": 0.2708,
+  "latency_ms_p50": 1759.4290420092875,
+  "latency_ms_p95": 2282.340916004614,
+  "generated_at_utc": "2026-11-22T04:59:13.649660+00:00",
+  "note": "Engineering summary only. No 2x2 / rho / epsilon computed here."
+}

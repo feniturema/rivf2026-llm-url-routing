@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "properties": {
+    "verdict": {
+      "type": "string",
+      "enum": ["phishing", "legitimate"],
+      "description": "Classification decision: phishing or legitimate"
+    },
+    "probability": {
+      "type": "number",
+      "description": "Estimated probability that the URL is phishing, P(phishing|URL) in [0.00, 1.00]"
+    },
+    "signals": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "maxItems": 3,
+      "description": "1 to 3 concise phrases identifying the dominant lexical, brand, or structural signals"
+    }
+  },
+  "required": ["verdict", "probability", "signals"]
+}

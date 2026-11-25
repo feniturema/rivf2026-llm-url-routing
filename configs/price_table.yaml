@@ -1,0 +1,44 @@
+# Official verified provider list pricing (USD per 1M tokens)
+models:
+  gemini-3.5-flash-lite:
+    provider: google_gemini_first_party
+    input_price_per_m: 0.30
+    cached_input_price_per_m: 0.03
+    output_price_per_m: 2.50
+  gpt-5.6-luna:
+    provider: openai_first_party
+    input_price_per_m: 0.20
+    cached_input_price_per_m: 0.02
+    output_price_per_m: 1.20
+  gpt-6-luna:
+    provider: openai_first_party
+    input_price_per_m: 0.10
+    cached_input_price_per_m: 0.01
+    output_price_per_m: 0.50
+  claude-haiku-5-5:
+    provider: anthropic_first_party
+    input_price_per_m: 0.10
+    cache_read_input_price_per_m: 0.01
+    cache_write_5m_input_price_per_m: 0.125
+    output_price_per_m: 0.50
+  deepseek-flash:
+    provider: deepseek_first_party
+    offpeak:
+      cache_hit_input_price_per_m: 0.003
+      input_price_per_m: 0.15
+      output_price_per_m: 0.60
+    peak:
+      cache_hit_input_price_per_m: 0.006
+      input_price_per_m: 0.30
+      output_price_per_m: 1.20
+
+legacy_models:
+  gemini-2.5-flash-lite:
+    input_price_per_m: 0.075
+    output_price_per_m: 0.30
+  gemini-1.5-flash:
+    input_price_per_m: 0.075
+    output_price_per_m: 0.30
+  gemini-2.5-flash:
+    input_price_per_m: 0.15
+    output_price_per_m: 0.60

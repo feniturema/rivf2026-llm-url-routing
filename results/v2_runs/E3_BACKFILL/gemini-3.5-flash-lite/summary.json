@@ -1,0 +1,42 @@
+{
+  "vendor": "gemini",
+  "phase": "e3_backfill",
+  "config_sha256": "52a105ace2ecfd573e0f1823a6aede39eaca87aa80b6f94cb6ea7d8b712df601",
+  "ca_source": "certifi 2026.01.04",
+  "manifest": "e3_test_all_26886.csv",
+  "manifest_sha256": "3a34662b9d86abb8846a0cdbf9079bee7759b142df7a9f5285011a90685b7d7e",
+  "manifest_rows": 3605,
+  "unique_requests": 3601,
+  "duplicate_row_reuses": 4,
+  "unique_success": 3601,
+  "rows_with_valid_response": 3605,
+  "true_failed_fallback_rows": 0,
+  "unresolved_by_status": {},
+  "http_attempts": 4157,
+  "http_status_counts": {
+    "200": 3601,
+    "-1": 556
+  },
+  "server_models": {
+    "gemini-3.5-flash-lite": 3601
+  },
+  "system_fingerprints": {
+    "null": 3601
+  },
+  "finish_reasons": {
+    "STOP": 3601
+  },
+  "usage_missing": 0,
+  "agreement_violations": 0,
+  "tokens": {
+    "in": 1350520,
+    "out": 228204,
+    "thinking": 0,
+    "cached": 0
+  },
+  "estimated_cost_usd_list_price": 0.9757,
+  "latency_ms_p50": 1805.384708000929,
+  "latency_ms_p95": 5883.365292000235,
+  "generated_at_utc": "2026-11-22T04:55:58.885037+00:00",
+  "note": "Engineering summary only. No 2x2 / rho / epsilon computed here."
+}

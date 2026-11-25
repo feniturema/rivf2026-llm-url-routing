@@ -1,0 +1,9 @@
+{
+  "files": {
+    "cache.jsonl": "2be2d7db0407a5fba1a67ae29b763153e1c7dedb35bcb2a98d09b743d1f104f3",
+    "ledger.jsonl": "ae8429f268778308b554621a684dc1c4f4fc4064c56439c9697f9ce58e3ec847",
+    "run_config.json": "c32e68852f0926287df24b1494dc5b8a0acbe81c50f6bbccf9110d6d8ec633c1",
+    "summary.json": "6f5f294334c8295ddec6fa16dfb974497a7bd463649877284c967146bfdef547"
+  },
+  "generated_at_utc": "2026-11-22T04:39:28.264755+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "config": {
+    "provider": "deepseek_first_party",
+    "endpoint": "https://api.deepseek.com/chat/completions",
+    "model": "deepseek-flash",
+    "documented_model_version": "DeepSeek-V4.1-Flash-1017",
+    "thinking": {
+      "type": "disabled"
+    },
+    "temperature": 0.0,
+    "top_p_note": "fixed at 1.0 by provider in non-thinking mode",
+    "max_tokens": 256,
+    "response_format": {
+      "type": "json_object"
+    },
+    "messages_layout": "system=prompt_v2.system.txt, user=prompt_v2.user.txt rendered with canonical_url",
+    "prompt_version": "v2",
+    "prompt_combined_sha256": "e67d6cb3b1b546ce3cd2441f829f611be878553d632d9dd27bf372ba8797d8d3",
+    "stream": false,
+    "repeat_index": 0
+  },
+  "config_sha256": "65254243118ee432cab1041fd874c734ed022e4ae61809a79a928ca1d22e810b",
+  "frozen_at_utc": "2026-11-22T01:49:42.160371+00:00"
+}

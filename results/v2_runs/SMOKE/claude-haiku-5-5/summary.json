@@ -1,0 +1,39 @@
+{
+  "phase": "smoke",
+  "config_sha256": "2b028040998800dc41aaf699a6ac41ee2f95a21c5d9fa1fd7cd377c1b416d0f7",
+  "manifest": "data/manifests/e4_cal_all_13446.csv",
+  "manifest_sha256": "7ecb9929e2939acaea687f16f7e1251d7587125673343e152972b5d35c373195",
+  "manifest_rows": 30,
+  "unique_urls": 30,
+  "duplicate_row_reuses": 0,
+  "unique_success": 30,
+  "rows_with_valid_response": 30,
+  "true_failed_fallback_rows": 0,
+  "unresolved_by_status": {},
+  "http_attempts": 54,
+  "http_status_counts": {
+    "-1": 24,
+    "200": 30
+  },
+  "server_models": {
+    "claude-haiku-5-5": 30
+  },
+  "stop_reasons": {
+    "end_turn": 30
+  },
+  "thinking_blocks_total": 0,
+  "usage_missing": 0,
+  "agreement_violations": 0,
+  "tokens": {
+    "in": 29222,
+    "out": 2071,
+    "cache_read": 0,
+    "cache_write": 0
+  },
+  "estimated_cost_usd_list_price": 0.004,
+  "latency_ms_p50": 2005.4020829993533,
+  "latency_ms_p95": 3359.615124994889,
+  "generated_at_utc": "2026-11-22T01:54:02.894670+00:00",
+  "note": "Engineering summary only. No 2x2 / rho / epsilon computed here.",
+  "smoke_gate": "PASS"
+}

@@ -1,0 +1,44 @@
+{
+  "phase": "smoke",
+  "config_sha256": "65254243118ee432cab1041fd874c734ed022e4ae61809a79a928ca1d22e810b",
+  "manifest": "data/manifests/e4_cal_all_13446.csv",
+  "manifest_sha256": "7ecb9929e2939acaea687f16f7e1251d7587125673343e152972b5d35c373195",
+  "manifest_rows": 30,
+  "unique_urls": 30,
+  "duplicate_row_reuses": 0,
+  "unique_success": 30,
+  "rows_with_valid_response": 30,
+  "true_failed_fallback_rows": 0,
+  "unresolved_by_status": {},
+  "http_attempts": 180,
+  "http_status_counts": {
+    "-1": 150,
+    "200": 30
+  },
+  "server_models": {
+    "deepseek-flash": 30
+  },
+  "system_fingerprints": {
+    "bc19ba97cbe016479903222bb1578db6": 30
+  },
+  "finish_reasons": {
+    "stop": 30
+  },
+  "reasoning_content_present": 0,
+  "usage_missing": 0,
+  "agreement_violations": 0,
+  "tokens": {
+    "hit": 3072,
+    "miss": 8179,
+    "out": 1900
+  },
+  "estimated_cost_usd_list_price": 0.0024,
+  "billing_windows": {
+    "offpeak": 180
+  },
+  "latency_ms_p50": 917.4131670006318,
+  "latency_ms_p95": 1587.9907909984468,
+  "generated_at_utc": "2026-11-22T01:53:45.664682+00:00",
+  "note": "Engineering summary only. No 2x2 / rho / epsilon computed here.",
+  "smoke_gate": "PASS"
+}

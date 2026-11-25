@@ -1,0 +1,294 @@
+{
+  "F1_specialist": 0.9537238430960774,
+  "frontier": [
+    {
+      "label": "entropy b=0.0",
+      "nominal_b": 0.0,
+      "esc_pct": 0.0,
+      "escalated": 0,
+      "B": 0,
+      "C": 0,
+      "net": 0,
+      "NRR_esc": null,
+      "F1": 0.9537238430960774,
+      "dF1_vs_spec": 0.0
+    },
+    {
+      "label": "entropy b=0.05",
+      "nominal_b": 0.05,
+      "esc_pct": 4.526519378115004,
+      "escalated": 1217,
+      "B": 409,
+      "C": 80,
+      "net": 329,
+      "NRR_esc": 0.2703368940016434,
+      "F1": 0.9661137529486652,
+      "dF1_vs_spec": 0.01238990985258781
+    },
+    {
+      "label": "entropy b=0.1",
+      "nominal_b": 0.1,
+      "esc_pct": 10.470133154801756,
+      "escalated": 2815,
+      "B": 709,
+      "C": 187,
+      "net": 522,
+      "NRR_esc": 0.18543516873889876,
+      "F1": 0.9734585849548945,
+      "dF1_vs_spec": 0.019734741858817073
+    },
+    {
+      "label": "entropy b=0.15",
+      "nominal_b": 0.15,
+      "esc_pct": 14.13746931488507,
+      "escalated": 3801,
+      "B": 798,
+      "C": 268,
+      "net": 530,
+      "NRR_esc": 0.13943699026571954,
+      "F1": 0.973821210769002,
+      "dF1_vs_spec": 0.020097367672924582
+    },
+    {
+      "label": "entropy b=0.2",
+      "nominal_b": 0.2,
+      "esc_pct": 19.850479803615265,
+      "escalated": 5337,
+      "B": 869,
+      "C": 332,
+      "net": 537,
+      "NRR_esc": 0.10061832490163013,
+      "F1": 0.9741036596693293,
+      "dF1_vs_spec": 0.02037981657325194
+    },
+    {
+      "label": "entropy b=0.25",
+      "nominal_b": 0.25,
+      "esc_pct": 25.299412333556496,
+      "escalated": 6802,
+      "B": 899,
+      "C": 414,
+      "net": 485,
+      "NRR_esc": 0.07130255807115554,
+      "F1": 0.9721426711793804,
+      "dF1_vs_spec": 0.018418828083302974
+    },
+    {
+      "label": "entropy b=0.3",
+      "nominal_b": 0.3,
+      "esc_pct": 27.88812021126237,
+      "escalated": 7498,
+      "B": 912,
+      "C": 450,
+      "net": 462,
+      "NRR_esc": 0.06161643104827954,
+      "F1": 0.9713075150524046,
+      "dF1_vs_spec": 0.017583671956327263
+    },
+    {
+      "label": "entropy b=0.35",
+      "nominal_b": 0.35,
+      "esc_pct": 37.10481291378412,
+      "escalated": 9976,
+      "B": 937,
+      "C": 558,
+      "net": 379,
+      "NRR_esc": 0.03799117882919006,
+      "F1": 0.9683368514609488,
+      "dF1_vs_spec": 0.01461300836487145
+    },
+    {
+      "label": "entropy b=0.4",
+      "nominal_b": 0.4,
+      "esc_pct": 38.075578367923825,
+      "escalated": 10237,
+      "B": 939,
+      "C": 559,
+      "net": 380,
+      "NRR_esc": 0.03712025007326365,
+      "F1": 0.9683703703703703,
+      "dF1_vs_spec": 0.014646527274292942
+    },
+    {
+      "label": "entropy b=0.45",
+      "nominal_b": 0.45,
+      "esc_pct": 44.42088819459942,
+      "escalated": 11943,
+      "B": 951,
+      "C": 633,
+      "net": 318,
+      "NRR_esc": 0.026626475759859332,
+      "F1": 0.9661467957720452,
+      "dF1_vs_spec": 0.012422952675967824
+    },
+    {
+      "label": "entropy b=0.5",
+      "nominal_b": 0.5,
+      "esc_pct": 50.37937960276724,
+      "escalated": 13545,
+      "B": 953,
+      "C": 746,
+      "net": 207,
+      "NRR_esc": 0.015282392026578074,
+      "F1": 0.9618824926697102,
+      "dF1_vs_spec": 0.00815864957363277
+    },
+    {
+      "label": "entropy b=0.6",
+      "nominal_b": 0.6,
+      "esc_pct": 54.712489771628356,
+      "escalated": 14710,
+      "B": 957,
+      "C": 787,
+      "net": 170,
+      "NRR_esc": 0.011556764106050306,
+      "F1": 0.96057507040166,
+      "dF1_vs_spec": 0.00685122730558263
+    },
+    {
+      "label": "entropy b=0.7",
+      "nominal_b": 0.7,
+      "esc_pct": 60.823476902477125,
+      "escalated": 16353,
+      "B": 964,
+      "C": 840,
+      "net": 124,
+      "NRR_esc": 0.0075827065370268456,
+      "F1": 0.9587789661319073,
+      "dF1_vs_spec": 0.005055123035829889
+    },
+    {
+      "label": "entropy b=0.8",
+      "nominal_b": 0.8,
+      "esc_pct": 79.23454586029904,
+      "escalated": 21303,
+      "B": 970,
+      "C": 960,
+      "net": 10,
+      "NRR_esc": 0.00046941745294090036,
+      "F1": 0.9547571523619428,
+      "dF1_vs_spec": 0.001033309265865423
+    },
+    {
+      "label": "entropy b=0.9",
+      "nominal_b": 0.9,
+      "esc_pct": 79.23454586029904,
+      "escalated": 21303,
+      "B": 970,
+      "C": 960,
+      "net": 10,
+      "NRR_esc": 0.00046941745294090036,
+      "F1": 0.9547571523619428,
+      "dF1_vs_spec": 0.001033309265865423
+    },
+    {
+      "label": "entropy b=0.95",
+      "nominal_b": 0.95,
+      "esc_pct": 79.23454586029904,
+      "escalated": 21303,
+      "B": 970,
+      "C": 960,
+      "net": 10,
+      "NRR_esc": 0.00046941745294090036,
+      "F1": 0.9547571523619428,
+      "dF1_vs_spec": 0.001033309265865423
+    },
+    {
+      "label": "entropy b=1.0",
+      "nominal_b": 1.0,
+      "esc_pct": 100.0,
+      "escalated": 26886,
+      "B": 971,
+      "C": 1439,
+      "net": -468,
+      "NRR_esc": -0.01740682883284981,
+      "F1": 0.9359524347106194,
+      "dF1_vs_spec": -0.017771408385457987
+    },
+    {
+      "label": "entropy tau*_BE",
+      "nominal_b": null,
+      "esc_pct": 12.445138733913561,
+      "escalated": 3346,
+      "B": 759,
+      "C": 235,
+      "net": 524,
+      "NRR_esc": 0.15660490137477584,
+      "F1": 0.973564673467868,
+      "dF1_vs_spec": 0.01984083037179063
+    },
+    {
+      "label": "random 25% (seed 42)",
+      "nominal_b": 0.25,
+      "esc_pct": 25.143197203005283,
+      "escalated": 6760,
+      "B": 228,
+      "C": 387,
+      "net": -159,
+      "NRR_esc": -0.0235207100591716,
+      "F1": 0.94764929159307,
+      "dF1_vs_spec": -0.006074551503007397
+    }
+  ],
+  "error_composition_full_escalation": {
+    "PWD2021": {
+      "delta_missed_phishing": -204,
+      "delta_false_alarms": 7,
+      "net_check": 197,
+      "C": 387,
+      "C_missed_phishing": 130,
+      "missed_phish_share_of_C": 0.3359173126614987
+    },
+    "EBBU2017": {
+      "delta_missed_phishing": 21,
+      "delta_false_alarms": 58,
+      "net_check": -79,
+      "C": 318,
+      "C_missed_phishing": 149,
+      "missed_phish_share_of_C": 0.46855345911949686
+    },
+    "URLPhish2025": {
+      "delta_missed_phishing": 463,
+      "delta_false_alarms": 123,
+      "net_check": -586,
+      "C": 734,
+      "C_missed_phishing": 574,
+      "missed_phish_share_of_C": 0.782016348773842
+    },
+    "pooled": {
+      "delta_missed_phishing": 280,
+      "delta_false_alarms": 188,
+      "net_check": -468,
+      "C": 1439,
+      "C_missed_phishing": 853,
+      "missed_phish_share_of_C": 0.5927727588603197
+    }
+  },
+  "urlphish25_cell_c_attribution": {
+    "n_cell_c": 734,
+    "n_cell_c_fn": 574,
+    "pct_https_cell_c_fn": 0.9895470383275261,
+    "pct_https_legit": 0.3386356684001224,
+    "pct_https_phish_all": 0.9109819516671765,
+    "pct_nonempty_path_cell_c_fn": 0.921602787456446,
+    "pct_nonempty_path_legit": 0.24227592535943715,
+    "pct_cell_c_fn_in_bottom_zone_b0.25": 0.975609756097561,
+    "pct_cell_c_fn_in_bottom_zone_tauBE": 0.9895470383275261
+  },
+  "strict_single_corpus": {
+    "N": 24921,
+    "F1_specialist": 0.956018344485377,
+    "F1_full": 0.9381766059371581,
+    "full_net": -469,
+    "b0.25": {
+      "esc_pct": 25.697203161991894,
+      "top_net": 462,
+      "F1": 0.9736273560306936
+    },
+    "tauBE": {
+      "esc_pct": 12.559688616026643,
+      "top_net": 504,
+      "F1": 0.975162228686507
+    }
+  }
+}

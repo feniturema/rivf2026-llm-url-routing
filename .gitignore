@@ -1,0 +1,28 @@
+# Environment & credentials
+.env
+*api_key*
+.venv/
+
+# Python build & test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# OS, editor & AI assistant local state
+.DS_Store
+tmp/
+.claude/
+.agents/
+.cursor/
+
+# LaTeX build intermediates
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.toc
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.synctex.gz

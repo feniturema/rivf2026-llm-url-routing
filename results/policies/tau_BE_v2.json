@@ -1,0 +1,29 @@
+{
+  "timestamp_utc": "2026-11-22T05:00:53.870672+00:00",
+  "rule": {
+    "data": "E4 CAL_ROUTER LLM responses (v2 Gemini run), EXCLUDING the P-49 list below",
+    "specialist_probability": "5-fold out-of-fold isotonic calibration within CAL_ROUTER, per corpus, StratifiedKFold(n_splits=5, shuffle=True, random_state=42), fit on specialist_prob_uncal",
+    "score": "binary entropy (bits) of the OOF calibrated probability",
+    "objective": "maximise B(tau) - C(tau) over candidate taus = distinct OOF scores; escalate iff score > tau; LLM failure => keep specialist decision",
+    "tie_break": "largest tau (fewest escalations)",
+    "uncertainty": "2,000 bootstrap resamples of E4 URLs, seed 42 -> 95% percentile CI of tau*_BE",
+    "transfer": "apply tau*_BE unchanged to TEST entropy of specialist_prob_cal; never re-tuned on TEST",
+    "must_be_computed_and_hashed_before": "any metric is computed on the v2 E3 TEST responses"
+  },
+  "amendment": "A-2 (E4 source = August Gemini cache)",
+  "e4_rows_total": 13446,
+  "e4_rows_used": 13261,
+  "p49_excluded_rows": 185,
+  "llm_fallback_rows": 4,
+  "tau_star_BE": 0.4566836315394427,
+  "net_B_minus_C_at_tau_star": 250,
+  "escalated_rows_at_tau_star": 1674,
+  "escalated_rate_E4": 0.12623482391976473,
+  "bootstrap_2000_seed42": {
+    "p2.5": 0.27595966665181626,
+    "p50": 0.4516228221820041,
+    "p97.5": 0.5453981833666132,
+    "n_infinite": 0
+  },
+  "primary_tau_b0.25_for_reference": 0.19965981838202343
+}

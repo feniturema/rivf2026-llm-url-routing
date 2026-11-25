@@ -1,0 +1,33 @@
+{
+  "vendor": "gemini",
+  "phase": "bridge",
+  "config": {
+    "provider": "google_gemini_api_first_party",
+    "endpoint": "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent",
+    "auth": "x-goog-api-key header",
+    "model": "gemini-3.5-flash-lite",
+    "generationConfig": {
+      "temperature": 0.0,
+      "topP": 1.0,
+      "maxOutputTokens": 256,
+      "responseMimeType": "application/json",
+      "responseSchema": "prompt_v2.schema.json minus additionalProperties (as in August)",
+      "thinkingConfig": {
+        "thinkingLevel": "minimal"
+      }
+    },
+    "changes_vs_august": "pinned model id (was alias gemini-flash-lite-latest); maxOutputTokens 120->256 (only affects truncated outputs); thinkingLevel minimal set explicitly (documented default); modelVersion/responseId/finishReason recorded",
+    "prompt_version": "v2",
+    "prompt_combined_sha256": "e67d6cb3b1b546ce3cd2441f829f611be878553d632d9dd27bf372ba8797d8d3",
+    "repeat_indices": [
+      0
+    ],
+    "selection_file": "bridge.txt",
+    "selection_sha256": "fe714f832a727855658b8a093327f2b4ecb4c0e9b0ea42cdccdeb64af778feae"
+  },
+  "config_sha256": "5d8385e5a5c3c408428cce22b49b0ca3218f78ae896380f2fd16ab6536104e7d",
+  "frozen_at_utc": "2026-11-22T04:39:28.614522+00:00",
+  "preconditions": {
+    "results/policies/policy_freeze_v2.json": "3f7d24fcccb99e008d4eeb421df431270f0a1978ccbb1e8b2c16a5dff9375ae5"
+  }
+}

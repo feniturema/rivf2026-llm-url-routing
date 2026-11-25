@@ -1,0 +1,32 @@
+{
+  "locked_at_utc": "2026-11-22T03:54:41.092025+00:00",
+  "scope": "E9 non-Gemini vendors final (DeepSeek-V4.1-Flash, Claude Haiku 5.5, GPT-5.6 Luna v2, GPT-6 Luna). Gemini E9 column = subset of the v2 Gemini E3 run (pending).",
+  "rules": [
+    "P-51 Haiku schema_fail -> specialist fallback",
+    "P-52 network-only failures retried once (GPT-5.6 Luna: 2 URLs, both recovered)"
+  ],
+  "files": {
+    "deepseek-flash/cache.jsonl": "8f99a67f387734fab515de4e4273cb4c7c6cdc284d803e1664fe3b2a49fb4415",
+    "deepseek-flash/ledger.jsonl": "e37109b7cdedc50e69bf84064b084c9382b325cabb296a08e749d9d65ec1affe",
+    "deepseek-flash/manifest.json": "cf6e6d7b4c74d069ad74469f2d425abbf2cc34e2c6351feafe74c3bf269321b4",
+    "deepseek-flash/run_config.json": "371787ee54312e669caf7906bf88eb91c8823e33755d2fbcaa31d6fe84db924d",
+    "deepseek-flash/summary.json": "24cef917d7674a8528ffa78d514bbaa229d3ab27a5aea2b429ef2d1c762fe11d",
+    "claude-haiku-5-5/cache.jsonl": "8b9e138fd26525c24a85e863caec8110282c46ffd678258ce0470abcc640ab5a",
+    "claude-haiku-5-5/failures.jsonl": "c6be78e73fd136e3896d960d838de5a70f44c05bff32893f0e221bdc68e32d4d",
+    "claude-haiku-5-5/ledger.jsonl": "96452c447f9ca2143608c06801a39510761d8aa78a63b9ed5923583e50a0e7e6",
+    "claude-haiku-5-5/manifest.json": "bd05bd0f38ef9ba2f4b9a365946f401462e137e7ebd2ecf45c85814965cc684e",
+    "claude-haiku-5-5/run_config.json": "a2945d04b9bad7ea4821385c62a01a28595f57a9f05152c332f0cc19b73c47c8",
+    "claude-haiku-5-5/summary.json": "066c9e3f83626830ba346439012f580eb26c388a9018feac922392bee2ac2d44",
+    "gpt-5.6-luna/cache.jsonl": "b43d6b95dc69c1b2b318d44c0e82e8e86ff44dbcc8ed1f24d2de406f03e59c46",
+    "gpt-5.6-luna/failures.jsonl": "fc716cbd461f3457842e4625353aa448e0b0a7d1c84cb66227b07fc125eda2d3",
+    "gpt-5.6-luna/ledger.jsonl": "3960abf0df2682c874d0ac3d060268a5d0120620cccb1aa9d72d5fdaa8058050",
+    "gpt-5.6-luna/manifest.json": "cb26cf6cba0e76b5ec871a998ff020892bfcc51ddf1fed5737ed595672b6ddd6",
+    "gpt-5.6-luna/run_config.json": "85c4aa00b7534f34b3eae4d429b548b2c6a08744cfa566a6f6eaff9726ad0e38",
+    "gpt-5.6-luna/summary.json": "677956bdb0233f93bbb254ee794679821437f2cba43dfe21f202fb1053869f50",
+    "gpt-6-luna/cache.jsonl": "d522b913e3dee84ef1d7500f8075d5d9f452898b4811dbe5402aa273ea796e66",
+    "gpt-6-luna/ledger.jsonl": "8f8234150b197a26592c171cfa59a502bec5c3af20887d34695b56ace97af819",
+    "gpt-6-luna/manifest.json": "7c573aa9409f15312f6efe008136c4d9980e15ca0bf084ea629bf43484699648",
+    "gpt-6-luna/run_config.json": "2e2d0ebc0eea8c85d790e235189d4798918b1aea7b29c16d09451653eb9f0bbc",
+    "gpt-6-luna/summary.json": "54848d99c42c7fea56770f5a57c7048226d5f624dcf634d42c6d076840b1970f"
+  }
+}

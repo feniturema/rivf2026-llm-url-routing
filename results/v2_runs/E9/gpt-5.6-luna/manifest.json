@@ -1,0 +1,10 @@
+{
+  "files": {
+    "cache.jsonl": "b43d6b95dc69c1b2b318d44c0e82e8e86ff44dbcc8ed1f24d2de406f03e59c46",
+    "failures.jsonl": "fc716cbd461f3457842e4625353aa448e0b0a7d1c84cb66227b07fc125eda2d3",
+    "ledger.jsonl": "3960abf0df2682c874d0ac3d060268a5d0120620cccb1aa9d72d5fdaa8058050",
+    "run_config.json": "85c4aa00b7534f34b3eae4d429b548b2c6a08744cfa566a6f6eaff9726ad0e38",
+    "summary.json": "677956bdb0233f93bbb254ee794679821437f2cba43dfe21f202fb1053869f50"
+  },
+  "generated_at_utc": "2026-11-22T03:53:54.083409+00:00"
+}

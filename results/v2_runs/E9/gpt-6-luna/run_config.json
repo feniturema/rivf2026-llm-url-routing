@@ -1,0 +1,28 @@
+{
+  "vendor": "luna6",
+  "phase": "e9",
+  "config": {
+    "provider": "openai_first_party",
+    "endpoint": "https://api.openai.com/v1/chat/completions",
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "max_completion_tokens": 1024,
+    "response_format": {
+      "type": "json_object"
+    },
+    "sampling": "API default (reasoning model)",
+    "changes_vs_august": "added by amendment A-1 (2026-11-22 11:00 +08); parameters identical to v2 gpt-5.6-luna",
+    "prompt_version": "v2",
+    "prompt_combined_sha256": "e67d6cb3b1b546ce3cd2441f829f611be878553d632d9dd27bf372ba8797d8d3",
+    "repeat_indices": [
+      0
+    ]
+  },
+  "config_sha256": "7a95c6d5f50dfd533c873daa64313166f13b08977d32de17f0779bb0e8e08684",
+  "frozen_at_utc": "2026-11-22T03:30:41.768377+00:00",
+  "preconditions": {
+    "results/policies/policy_freeze_v2.json": "3f7d24fcccb99e008d4eeb421df431270f0a1978ccbb1e8b2c16a5dff9375ae5",
+    "_LOG/2026-11-22_1015_v2-decision-rules.md": "703e4d1b0198588aafa8ba4e29edf6931a5f65b56b6a53c8acc4407581dd8ebf",
+    "_LOG/2026-11-22_1100_v2-decision-amendment-gpt6-luna.md": "0d40a79c13b617f2302bf6e0a995275276095f373e6970c34cd4d3f89c949ab7"
+  }
+}

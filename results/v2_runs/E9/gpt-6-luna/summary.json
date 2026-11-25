@@ -1,0 +1,42 @@
+{
+  "vendor": "luna6",
+  "phase": "e9",
+  "config_sha256": "7a95c6d5f50dfd533c873daa64313166f13b08977d32de17f0779bb0e8e08684",
+  "ca_source": "certifi 2026.01.04",
+  "manifest": "e9_shared_test_cohort_3000.csv",
+  "manifest_sha256": "f33b8a178e95d98f4b9071f531b327f51d106918d18e903ab8f07871b31810c4",
+  "manifest_rows": 3000,
+  "unique_requests": 2993,
+  "duplicate_row_reuses": 7,
+  "unique_success": 2993,
+  "rows_with_valid_response": 3000,
+  "true_failed_fallback_rows": 0,
+  "unresolved_by_status": {},
+  "http_attempts": 3009,
+  "http_status_counts": {
+    "200": 2993,
+    "-1": 16
+  },
+  "server_models": {
+    "gpt-6-luna": 2993
+  },
+  "system_fingerprints": {
+    "null": 2993
+  },
+  "finish_reasons": {
+    "stop": 2993
+  },
+  "usage_missing": 0,
+  "agreement_violations": 0,
+  "tokens": {
+    "in": 1059289,
+    "out": 367932,
+    "thinking": 195943,
+    "cached": 0
+  },
+  "estimated_cost_usd_list_price": 0.2899,
+  "latency_ms_p50": 2941.490042008809,
+  "latency_ms_p95": 4800.706333000562,
+  "generated_at_utc": "2026-11-22T03:50:52.660688+00:00",
+  "note": "Engineering summary only. No 2x2 / rho / epsilon computed here."
+}

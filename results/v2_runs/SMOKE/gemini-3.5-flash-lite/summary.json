@@ -1,0 +1,42 @@
+{
+  "vendor": "gemini",
+  "phase": "smoke",
+  "config_sha256": "df51aecefc30abba90cec1207d2520d422f91c19a4558361fd7068dfaa7bbf60",
+  "ca_source": "certifi 2026.01.04",
+  "manifest": "e4_cal_all_13446.csv",
+  "manifest_sha256": "7ecb9929e2939acaea687f16f7e1251d7587125673343e152972b5d35c373195",
+  "manifest_rows": 30,
+  "unique_requests": 30,
+  "duplicate_row_reuses": 0,
+  "unique_success": 30,
+  "rows_with_valid_response": 30,
+  "true_failed_fallback_rows": 0,
+  "unresolved_by_status": {},
+  "http_attempts": 30,
+  "http_status_counts": {
+    "200": 30
+  },
+  "server_models": {
+    "gemini-3.5-flash-lite": 30
+  },
+  "system_fingerprints": {
+    "null": 30
+  },
+  "finish_reasons": {
+    "STOP": 30
+  },
+  "usage_missing": 0,
+  "agreement_violations": 0,
+  "tokens": {
+    "in": 11018,
+    "out": 1849,
+    "thinking": 0,
+    "cached": 0
+  },
+  "estimated_cost_usd_list_price": 0.0079,
+  "latency_ms_p50": 2137.0081669883803,
+  "latency_ms_p95": 2555.4878330003703,
+  "generated_at_utc": "2026-11-22T04:39:28.264755+00:00",
+  "note": "Engineering summary only. No 2x2 / rho / epsilon computed here.",
+  "smoke_gate": "PASS"
+}

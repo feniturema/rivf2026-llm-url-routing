@@ -1,0 +1,96 @@
+{
+  "timestamp": "2026-08-28T01:21:00Z",
+  "protocol": "S-STRICT Seed 42 Fixed Partition Cohorts",
+  "cohorts": {
+    "e3_test_pwd2021.csv": {
+      "experiment": "E3",
+      "dataset": "PWD2021",
+      "split": "TEST",
+      "total_rows": 11564,
+      "y_0_legit": 5782,
+      "y_1_phish": 5782,
+      "sha256": "f2e38cdff8e06dd7e1e2f0866f902ba0063097113a4979b9ca3ae62bd9523808"
+    },
+    "e4_cal_pwd2021.csv": {
+      "experiment": "E4",
+      "dataset": "PWD2021",
+      "split": "CAL_ROUTER",
+      "total_rows": 5784,
+      "y_0_legit": 2892,
+      "y_1_phish": 2892,
+      "sha256": "bd0a803e9247939f7766fb7b4b2be38aa24c6004930d9075bdc73a7d2010b633"
+    },
+    "e3_test_urlphish2025.csv": {
+      "experiment": "E3",
+      "dataset": "URLPhish2025",
+      "split": "TEST",
+      "total_rows": 6538,
+      "y_0_legit": 3269,
+      "y_1_phish": 3269,
+      "sha256": "4f95fa3e4b451d3a3235875c75b63320e8d2abf42fe5907d21857e50c46462ac"
+    },
+    "e4_cal_urlphish2025.csv": {
+      "experiment": "E4",
+      "dataset": "URLPhish2025",
+      "split": "CAL_ROUTER",
+      "total_rows": 3270,
+      "y_0_legit": 1635,
+      "y_1_phish": 1635,
+      "sha256": "98e46410168378e762afbdf2aeed8ec47fd1e670f2e9a3e0cab34d75edb51121"
+    },
+    "e3_test_ebbu2017.csv": {
+      "experiment": "E3",
+      "dataset": "EBBU2017",
+      "split": "TEST",
+      "total_rows": 8784,
+      "y_0_legit": 4392,
+      "y_1_phish": 4392,
+      "sha256": "55b79516a38faa3de4af7c8da0713171242c1b7582760a9233869a765cd4094b"
+    },
+    "e4_cal_ebbu2017.csv": {
+      "experiment": "E4",
+      "dataset": "EBBU2017",
+      "split": "CAL_ROUTER",
+      "total_rows": 4392,
+      "y_0_legit": 2196,
+      "y_1_phish": 2196,
+      "sha256": "efbd00aca902081df783e11935d3583c5232d4bb67d416aef58934aa8d2e7323"
+    },
+    "e3_test_all_26886.csv": {
+      "experiment": "E3",
+      "dataset": "ALL_3_CORPORA",
+      "split": "TEST",
+      "total_rows": 26886,
+      "y_0_legit": 13443,
+      "y_1_phish": 13443,
+      "sha256": "3a34662b9d86abb8846a0cdbf9079bee7759b142df7a9f5285011a90685b7d7e"
+    },
+    "e4_cal_all_13446.csv": {
+      "experiment": "E4",
+      "dataset": "ALL_3_CORPORA",
+      "split": "CAL_ROUTER",
+      "total_rows": 13446,
+      "y_0_legit": 6723,
+      "y_1_phish": 6723,
+      "sha256": "7ecb9929e2939acaea687f16f7e1251d7587125673343e152972b5d35c373195"
+    },
+    "e9_shared_test_cohort_600.csv": {
+      "experiment": "E9",
+      "dataset": "ALL_3_CORPORA",
+      "split": "TEST",
+      "total_rows": 600,
+      "y_0_legit": 300,
+      "y_1_phish": 300,
+      "sha256": "3ad45a44762d4ea2257f2fab9a490300a5bd571180b2ae75846fc91f2664751f"
+    },
+    "e9_shared_test_cohort_3000.csv": {
+      "experiment": "E9",
+      "dataset": "ALL_3_CORPORA",
+      "split": "TEST",
+      "total_rows": 3000,
+      "y_0_legit": 1500,
+      "y_1_phish": 1500,
+      "sha256": "f33b8a178e95d98f4b9071f531b327f51d106918d18e903ab8f07871b31810c4"
+    }
+  }
+}

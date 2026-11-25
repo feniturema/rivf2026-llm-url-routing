@@ -1,0 +1,57 @@
+{
+  "config": {
+    "provider": "anthropic_first_party",
+    "endpoint": "https://api.anthropic.com/v1/messages",
+    "anthropic_version": "2026-10-21",
+    "model": "claude-haiku-5-5",
+    "thinking": {
+      "type": "disabled"
+    },
+    "output_config": {
+      "effort": "low",
+      "format": {
+        "type": "json_schema",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "verdict": {
+              "type": "string",
+              "enum": [
+                "phishing",
+                "legitimate"
+              ],
+              "description": "Classification decision: phishing or legitimate"
+            },
+            "probability": {
+              "type": "number",
+              "description": "Estimated probability that the URL is phishing, P(phishing|URL) in [0.00, 1.00]"
+            },
+            "signals": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 1,
+              "description": "1 to 3 concise phrases identifying the dominant lexical, brand, or structural signals"
+            }
+          },
+          "required": [
+            "verdict",
+            "probability",
+            "signals"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "sampling": "provider default (temperature/top_p/top_k not accepted on claude-haiku-5-5)",
+    "max_tokens": 256,
+    "messages_layout": "system=prompt_v2.system.txt, user=prompt_v2.user.txt rendered with canonical_url",
+    "schema_derivation": "prompt_v2.schema.json minus signals.maxItems, plus additionalProperties=false",
+    "prompt_version": "v2",
+    "prompt_combined_sha256": "e67d6cb3b1b546ce3cd2441f829f611be878553d632d9dd27bf372ba8797d8d3",
+    "repeat_index": 0
+  },
+  "config_sha256": "2b028040998800dc41aaf699a6ac41ee2f95a21c5d9fa1fd7cd377c1b416d0f7",
+  "frozen_at_utc": "2026-11-22T02:07:55.253408+00:00"
+}

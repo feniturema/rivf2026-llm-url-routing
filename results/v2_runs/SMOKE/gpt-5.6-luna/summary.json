@@ -1,0 +1,42 @@
+{
+  "vendor": "luna",
+  "phase": "smoke",
+  "config_sha256": "78acf30a6f1ac4635d304eff00be3b193eca903fc64cf64e3b4f980ba6c96fe8",
+  "ca_source": "certifi 2026.01.04",
+  "manifest": "e4_cal_all_13446.csv",
+  "manifest_sha256": "7ecb9929e2939acaea687f16f7e1251d7587125673343e152972b5d35c373195",
+  "manifest_rows": 30,
+  "unique_requests": 30,
+  "duplicate_row_reuses": 0,
+  "unique_success": 30,
+  "rows_with_valid_response": 30,
+  "true_failed_fallback_rows": 0,
+  "unresolved_by_status": {},
+  "http_attempts": 30,
+  "http_status_counts": {
+    "200": 30
+  },
+  "server_models": {
+    "gpt-5.6-luna": 30
+  },
+  "system_fingerprints": {
+    "null": 30
+  },
+  "finish_reasons": {
+    "stop": 30
+  },
+  "usage_missing": 0,
+  "agreement_violations": 0,
+  "tokens": {
+    "in": 10434,
+    "out": 3352,
+    "thinking": 1497,
+    "cached": 0
+  },
+  "estimated_cost_usd_list_price": 0.0061,
+  "latency_ms_p50": 2895.994749997044,
+  "latency_ms_p95": 4111.652999999933,
+  "generated_at_utc": "2026-11-22T03:07:01.559437+00:00",
+  "note": "Engineering summary only. No 2x2 / rho / epsilon computed here.",
+  "smoke_gate": "PASS"
+}

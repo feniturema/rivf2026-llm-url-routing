@@ -1,0 +1,242 @@
+{
+  "pooled": {
+    "TEST": {
+      "rho": 0.786871961102107,
+      "eps": 0.056096990488071104,
+      "eps_star": 0.037852799002027135,
+      "full_net_positive": false
+    },
+    "100": {
+      "n": 100,
+      "draws_used": 982,
+      "draws_undefined": 18,
+      "sign_accuracy": 0.8126272912423625,
+      "MAE_rho": 0.17975402717969075,
+      "MAE_eps": 0.019652589818349487
+    },
+    "200": {
+      "n": 200,
+      "draws_used": 1000,
+      "draws_undefined": 0,
+      "sign_accuracy": 0.868,
+      "MAE_rho": 0.11250814943292571,
+      "MAE_eps": 0.013368048931483642
+    },
+    "500": {
+      "n": 500,
+      "draws_used": 1000,
+      "draws_undefined": 0,
+      "sign_accuracy": 0.941,
+      "MAE_rho": 0.06698608981321098,
+      "MAE_eps": 0.009086855301294107
+    },
+    "1000": {
+      "n": 1000,
+      "draws_used": 1000,
+      "draws_undefined": 0,
+      "sign_accuracy": 0.989,
+      "MAE_rho": 0.04656865700133834,
+      "MAE_eps": 0.006565091968468292
+    },
+    "2000": {
+      "n": 2000,
+      "draws_used": 1000,
+      "draws_undefined": 0,
+      "sign_accuracy": 1.0,
+      "MAE_rho": 0.03218821266915244,
+      "MAE_eps": 0.004484794924165625
+    },
+    "5000": {
+      "n": 5000,
+      "draws_used": 1000,
+      "draws_undefined": 0,
+      "sign_accuracy": 1.0,
+      "MAE_rho": 0.017199199527043824,
+      "MAE_eps": 0.003073186569921178
+    },
+    "full": {
+      "n": 13261,
+      "draws_used": 1,
+      "draws_undefined": 0,
+      "sign_accuracy": 1.0,
+      "MAE_rho": 0.00043128313600526713,
+      "MAE_eps": 0.002619764306341331
+    }
+  },
+  "PWD2021": {
+    "TEST": {
+      "rho": 0.7745358090185677,
+      "eps": 0.03580018501387604,
+      "eps_star": 0.05402405180388529,
+      "full_net_positive": true
+    },
+    "100": {
+      "n": 100,
+      "draws_used": 997,
+      "draws_undefined": 3,
+      "sign_accuracy": 0.6018054162487463,
+      "MAE_rho": 0.1502064111426682,
+      "MAE_eps": 0.01584459151213925
+    },
+    "200": {
+      "n": 200,
+      "draws_used": 1000,
+      "draws_undefined": 0,
+      "sign_accuracy": 0.701,
+      "MAE_rho": 0.09513378852504728,
+      "MAE_eps": 0.011302759413531356
+    },
+    "500": {
+      "n": 500,
+      "draws_used": 1000,
+      "draws_undefined": 0,
+      "sign_accuracy": 0.848,
+      "MAE_rho": 0.057110214359194965,
+      "MAE_eps": 0.0068518310673661076
+    },
+    "1000": {
+      "n": 1000,
+      "draws_used": 1000,
+      "draws_undefined": 0,
+      "sign_accuracy": 0.93,
+      "MAE_rho": 0.037990228235287166,
+      "MAE_eps": 0.004979668002009623
+    },
+    "2000": {
+      "n": 2000,
+      "draws_used": 1000,
+      "draws_undefined": 0,
+      "sign_accuracy": 0.994,
+      "MAE_rho": 0.024035947052505145,
+      "MAE_eps": 0.0033675004611868264
+    },
+    "5000": {
+      "n": 5000,
+      "draws_used": 1000,
+      "draws_undefined": 0,
+      "sign_accuracy": 1.0,
+      "MAE_rho": 0.008028722457319969,
+      "MAE_eps": 0.0022411197022174723
+    },
+    "full": {
+      "n": 5700,
+      "draws_used": 1,
+      "draws_undefined": 0,
+      "sign_accuracy": 1.0,
+      "MAE_rho": 0.0050913645741231806,
+      "MAE_eps": 0.0022147962595321993
+    }
+  },
+  "EBBU2017": {
+    "TEST": {
+      "rho": 0.7887788778877888,
+      "eps": 0.03749557835160948,
+      "eps_star": 0.02818063907558071,
+      "full_net_positive": false
+    },
+    "100": {
+      "n": 100,
+      "draws_used": 966,
+      "draws_undefined": 34,
+      "sign_accuracy": 0.7308488612836439,
+      "MAE_rho": 0.20422185371450483,
+      "MAE_eps": 0.015383256765131383
+    },
+    "200": {
+      "n": 200,
+      "draws_used": 999,
+      "draws_undefined": 1,
+      "sign_accuracy": 0.7567567567567568,
+      "MAE_rho": 0.1374319048961513,
+      "MAE_eps": 0.010917044117383538
+    },
+    "500": {
+      "n": 500,
+      "draws_used": 1000,
+      "draws_undefined": 0,
+      "sign_accuracy": 0.852,
+      "MAE_rho": 0.08000982792475342,
+      "MAE_eps": 0.006522065791625399
+    },
+    "1000": {
+      "n": 1000,
+      "draws_used": 1000,
+      "draws_undefined": 0,
+      "sign_accuracy": 0.918,
+      "MAE_rho": 0.05773662310646034,
+      "MAE_eps": 0.004235762574286411
+    },
+    "2000": {
+      "n": 2000,
+      "draws_used": 1000,
+      "draws_undefined": 0,
+      "sign_accuracy": 0.99,
+      "MAE_rho": 0.03897656535349584,
+      "MAE_eps": 0.0025157230943986227
+    },
+    "full": {
+      "n": 4292,
+      "draws_used": 1,
+      "draws_undefined": 0,
+      "sign_accuracy": 1.0,
+      "MAE_rho": 0.030061701822356124,
+      "MAE_eps": 0.0004228773405358169
+    }
+  },
+  "URLPhish2025": {
+    "TEST": {
+      "rho": 0.8361581920903954,
+      "eps": 0.11539066184562176,
+      "eps_star": 0.02326678195252319,
+      "full_net_positive": false
+    },
+    "100": {
+      "n": 100,
+      "draws_used": 940,
+      "draws_undefined": 60,
+      "sign_accuracy": 0.997872340425532,
+      "MAE_rho": 0.21567441714033858,
+      "MAE_eps": 0.025560234882557625
+    },
+    "200": {
+      "n": 200,
+      "draws_used": 999,
+      "draws_undefined": 1,
+      "sign_accuracy": 1.0,
+      "MAE_rho": 0.14546083274896837,
+      "MAE_eps": 0.01833469558843772
+    },
+    "500": {
+      "n": 500,
+      "draws_used": 1000,
+      "draws_undefined": 0,
+      "sign_accuracy": 1.0,
+      "MAE_rho": 0.08448870821296348,
+      "MAE_eps": 0.012251400618816116
+    },
+    "1000": {
+      "n": 1000,
+      "draws_used": 1000,
+      "draws_undefined": 0,
+      "sign_accuracy": 1.0,
+      "MAE_rho": 0.05698939409053311,
+      "MAE_eps": 0.009016209745191272
+    },
+    "2000": {
+      "n": 2000,
+      "draws_used": 1000,
+      "draws_undefined": 0,
+      "sign_accuracy": 1.0,
+      "MAE_rho": 0.03695012461263073,
+      "MAE_eps": 0.006821663541923062
+    },
+    "full": {
+      "n": 3269,
+      "draws_used": 1,
+      "draws_undefined": 0,
+      "sign_accuracy": 1.0,
+      "MAE_rho": 0.031810366003438895,
+      "MAE_eps": 0.006422369315851328
+    }
+  }
+}

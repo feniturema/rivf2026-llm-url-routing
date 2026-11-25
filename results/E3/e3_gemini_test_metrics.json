@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "total_pilot_samples": 26886,
+    "model": "gemini-flash-lite-latest",
+    "server_model_version": "gemini-3.5-flash-lite",
+    "prompt_version": "v2",
+    "prompt_combined_sha256": "e67d6cb3b1b546ce3cd2441f829f611be878553d632d9dd27bf372ba8797d8d3",
+    "k2_status": "failed (regressions exceed rescues)",
+    "k2_passed": false
+  },
+  "two_by_two": {
+    "cell_a_waste": 24099,
+    "cell_b_rescue": 964,
+    "cell_c_regression": 1553,
+    "cell_d_hard": 270,
+    "net_rescue_count": -589,
+    "net_rescue_rate": -0.021907312355872944,
+    "mcnemar_p_value": 5.301769503623105e-32
+  },
+  "advantage_partition": {
+    "dev_policy_cutoff_25": 0.4363,
+    "top_25_rescues_b": 752,
+    "top_25_regressions_c": 243,
+    "top_25_net_advantage": 509,
+    "bot_75_rescues_b": 212,
+    "bot_75_regressions_c": 1310,
+    "bot_75_net_advantage": -1098
+  },
+  "bootstrap_ci_delta_f1": {
+    "ci_95_low": 0.038821004187256564,
+    "ci_95_high": 0.044900204914410415
+  },
+  "ledger_summary": {
+    "total_calls": 27897,
+    "successful_calls": 26611,
+    "failed_calls": 1286,
+    "failure_rate_pct": 4.609814675413127,
+    "total_in_tokens": 9957230,
+    "total_out_tokens": 1859011,
+    "total_retries": 7382,
+    "estimated_cost_usd": 1.30449555,
+    "p50_latency_ms": 950.9095409885049,
+    "p95_latency_ms": 2195.0651249935618,
+    "integrity": {
+      "total_calls": 27897,
+      "successful_calls": 26611,
+      "failed_calls": 1286,
+      "synthetic_entries": 0,
+      "failure_rate_pct": 4.609814675413127,
+      "sd_latency_ms": 849.3713358331582,
+      "distinct_timestamps": 27897,
+      "distinct_input_token_sizes": 274,
+      "valid_live_integrity": true,
+      "violation_reasons": []
+    }
+  }
+}

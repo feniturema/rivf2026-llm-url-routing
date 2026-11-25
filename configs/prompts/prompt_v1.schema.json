@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "properties": {
+    "verdict": { "type": "string", "enum": ["phishing", "legitimate"] },
+    "probability": { "type": "number", "minimum": 0.0, "maximum": 1.0 },
+    "signals": {
+      "type": "array",
+      "maxItems": 3,
+      "items": { "type": "string", "maxLength": 60 }
+    }
+  },
+  "required": ["verdict", "probability", "signals"],
+  "additionalProperties": false
+}

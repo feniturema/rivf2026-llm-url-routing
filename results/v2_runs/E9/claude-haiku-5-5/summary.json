@@ -1,0 +1,40 @@
+{
+  "phase": "e9",
+  "config_sha256": "2b028040998800dc41aaf699a6ac41ee2f95a21c5d9fa1fd7cd377c1b416d0f7",
+  "manifest": "data/manifests/e9_shared_test_cohort_3000.csv",
+  "manifest_sha256": "f33b8a178e95d98f4b9071f531b327f51d106918d18e903ab8f07871b31810c4",
+  "manifest_rows": 3000,
+  "unique_urls": 2993,
+  "duplicate_row_reuses": 7,
+  "unique_success": 2978,
+  "rows_with_valid_response": 2985,
+  "true_failed_fallback_rows": 15,
+  "unresolved_by_status": {
+    "schema_fail": 15
+  },
+  "http_attempts": 3033,
+  "http_status_counts": {
+    "200": 2993,
+    "-1": 40
+  },
+  "server_models": {
+    "claude-haiku-5-5": 2978
+  },
+  "stop_reasons": {
+    "end_turn": 2978
+  },
+  "thinking_blocks_total": 0,
+  "usage_missing": 0,
+  "agreement_violations": 0,
+  "tokens": {
+    "in": 2940052,
+    "out": 210489,
+    "cache_read": 0,
+    "cache_write": 0
+  },
+  "estimated_cost_usd_list_price": 0.3992,
+  "latency_ms_p50": 1994.49900000036,
+  "latency_ms_p95": 2884.616208000807,
+  "generated_at_utc": "2026-11-22T02:39:15.501674+00:00",
+  "note": "Engineering summary only. No 2x2 / rho / epsilon computed here."
+}
